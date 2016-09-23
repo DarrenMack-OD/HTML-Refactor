@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="theme-color" content="#e31836">
+    <!-- title and favicon -->
+    <title>Bootstrap4 :: Office Depot Homepage</title>
+    <link rel="icon" sizes="192x192" href="assets/img/icon/fav_icon.gif">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- OD CSS - In this order -->
+      <!--[if IE]>
+    <link rel="stylesheet" href="css/OD_css.css">
+    <link rel="stylesheet" href="css/OD_header_footer.css">
+    <link rel="stylesheet" href="css/OD_homepage.css">
+    <link rel="stylesheet" href="css/OD_bootstrap_tweaks.css">
+    <link rel="stylesheet" href="css/OD_media_queries.css">
+    <link rel="stylesheet" href="css/thirdParty/flags.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--[if IE]>
+		<style>
+		    .flip-container:hover .back,
+			.flip-container.hover .back {
+			    backface-visibility: visible !important;
+			}
+		</style>
+	<![endif]-->
+</head>
+<body id="container" class="container">
+  <!--[if !IE]> -->
+  <link rel="stylesheet" href="css/OD_css.css">
+  <link rel="stylesheet" href="css/OD_header_footer.css">
+  <link rel="stylesheet" href="css/OD_homepage.css">
+  <link rel="stylesheet" href="css/OD_bootstrap_tweaks.css" lazyload>
+  <link rel="stylesheet" href="css/OD_media_queries.css" lazyload>
+  <link rel="stylesheet" href="css/thirdParty/flags.css" lazyload>
+  <!-- <![endif]-->
+  <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <header>
+    <div class="row utils">
+      <div class="col-md-12 col-xl-12">
+        <ul class="utilities xsmall">
+          <li><a href="/en/quickorder" title="Order by Viking Number">Order by Viking Number</a></li>
+          <li><a href="https://officedepotkb-at.custhelp.com" title="Customer Service">Customer Service</a></li>
+          <li class="utilities__language"><p><span data-toggle="tooltip" data-placement="bottom" data-original-title="Choose your language">Language: </span><a class="selected">en</a> - <a href="/en/_s/language?code=de_AT">de</a></p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row tools">
+      <div class="col-xs-2 col-md-2 col-xl-2">
+        <a href="#"><img class="img-fluid pull-xs-left" title="Viking" alt="Viking" src="imgs/viking-logo.png"></a>
+      </div>
+      <div class="col-xs-4 col-md-4 col-xl-4">
+        <div class="input-group">
+          <label class="sr-only" for="search">Search</label>
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+              <button class="btn btn-primary search" type="submit"><i class="fa fa-search fa-lg"></i></button>
+          </span>
+        </div>
+      </div>
+      <div class="hidden-xs hidden-sm col-md-2 col-xl-2"></div>
+      <div class="col-xs-2 col-md-2 col-xl-2">
+        <a href="#" class="user sign-in" data-toggle="popover" data-html="true" data-container="signin_content_wrapper" data-placement="bottom" data-original-title="" title="">
+          <i class="fa fa-sign-in fa-lg"></i> My account <i class="fa fa-chevron-down"></i>
+        </a>
+        <div id="signin_content_wrapper" style="display: none">
+          <div class="user">
+            <p class="small">Hello<br/><span class="large">Darren Mackintosh</span></p>
+            <button type="button" class="btn btn-primary">Log out</button>
+          </div>
+          <ul class="user-navlist">
+            <li><a href="/my-account">My Account</a></li>
+            <li><a href="/my-account/order-history">Order History</a></li>
+            <li><a href="/my-account/shopping-lists">Shopping Lists</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-2 col-md-2 col-xl-2">
+          <a href="#" class="user basket" data-toggle="popover" data-html="true" data-container="usertools_content_wrapper" data-placement="bottom" data-original-title="" title="">
+          <i class="fa fa-shopping-cart fa-lg"></i> Basket <span class="red">(12)</span><i class="fa fa-chevron-down"></i>
+          </a>
+          <div id="usertools_content_wrapper" style="display: none">
+              <p>Basket summary <span class="red">12 Items</span></p>
+              <div class="alert alert-success alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                Your order qualifies for free delivery
+              </div>
+              <ul class="cart-items-list clearfix">
+                <li><a href="/en/viking-everyday-printing-paper-a4-80gsm-white-500-sheets-p-8545">    
+                    <img srcset="//s7g1.scene7.com/is/image/odeu13/8545?wid=100&amp;hei=100 100w,
+                                 //s7g1.scene7.com/is/image/odeu13/8545?wid=220&amp;hei=220 200w,
+                                 //s7g1.scene7.com/is/image/odeu13/8545?wid=300&amp;hei=300 300w,
+                                 //s7g1.scene7.com/is/image/odeu13/8545?wid=400&amp;hei=400 400w" sizes="100px" src="//s7g1.scene7.com/is/image/odeu13/8545?wid=100&amp;hei=100" alt="4807600 [8545]{}" class="img-fluid">
+                    <p><strong>4x</strong>&nbsp;&nbsp;Viking Everyday Printing Paper A4 80gsm White 500 Sheets</p></a>
+                </li>
+                <li><a href="/en/planospeed-universal-paper-a4-80gsm-white-500-sheets-p-PLANOSPEED">    
+                    <img srcset="//s7g1.scene7.com/is/image/odeu13/PLANOSPEED?wid=100&amp;hei=100 100w,
+                                 //s7g1.scene7.com/is/image/odeu13/PLANOSPEED?wid=220&amp;hei=220 200w,
+                                 //s7g1.scene7.com/is/image/odeu13/PLANOSPEED?wid=300&amp;hei=300 300w,
+                                 //s7g1.scene7.com/is/image/odeu13/PLANOSPEED?wid=400&amp;hei=400 400w" sizes="100px" src="//s7g1.scene7.com/is/image/odeu13/PLANOSPEED?wid=100&amp;hei=100" alt="4485519 [PLANOSPEED]{}" class="img-fluid">
+                    <p><strong>6x</strong>&nbsp;&nbsp;PlanoSpeed Universal Paper A4 80gsm White 500 Sheets</p></a>
+                </li>
+                <li><a href="/en/rexel-paper-shredder-duo-cross-cut-4-x-45-mm-17-l-p-6352614">    
+                    <img srcset="//s7g1.scene7.com/is/image/odeu13/6352614?wid=100&amp;hei=100 100w,
+                                 //s7g1.scene7.com/is/image/odeu13/6352614?wid=220&amp;hei=220 200w,
+                                 //s7g1.scene7.com/is/image/odeu13/6352614?wid=300&amp;hei=300 300w,
+                                 //s7g1.scene7.com/is/image/odeu13/6352614?wid=400&amp;hei=400 400w" sizes="100px" src="//s7g1.scene7.com/is/image/odeu13/6352614?wid=100&amp;hei=100" alt="6352614 [6352614]{}" class="img-fluid">
+                    <p><strong>2x</strong>&nbsp;&nbsp;Rexel Paper Shredder Duo Cross-Cut 4 x 45 mm 17 L</p></a>
+                </li>    
+            </ul>
+            <button type="button" class="btn btn-secondary">View basket (12 items)</button>
+            <button type="button" class="btn btn-primary">Checkout</button>
+<!--            <ul class="buttons">
+              <li><a class="btn btn-secondary" title="" href="#">View basket (12 items)</a></li>
+              <li><a class="btn btn-primary" title="" href="#">Checkout</a></li>
+            </ul> -->
+          </div>
+      </div>
+    </div>
+    <nav class="row" role="navigation">
+      <a href="javascript:void(0);" class="ic menu">
+        <i class="fa fa-bars fa-lg"></i>
+      </a>
+      <a href="javascript:void(0);" class="ic close"></a>
+      <ul class="main-nav small">
+        <li class="top-level-link">
+          <a href="#" class="mega-menu small"><span>Paper &amp; Paper<br/>products</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small">Printer Paper</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Copy Paper</a></li>
+                  <li><a href="#">Colour Printing</a></li>
+                  <li><a href="#">Colour Paper</a></li>
+                  <li><a href="#">Recycled Paper</a></li>
+                  <li><a href="#" class="see-all">See all</a></li>
+                </ul>          
+                <h2 class="sub-menu-head small">Labels</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Universal Labels</a></li>
+                  <li><a href="#">Special Labels</a></li>
+                  <li><a href="#">Removable Labels</a></li>
+                  <li><a href="#">Laser Labels</a></li>
+                  <li><a href="#" class="see-all">See all</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small">Certificates, Design Paper &amp; Business Cards</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Design Paper</a></li>
+                  <li><a href="#">Business Cards</a></li>
+                  <li><a href="#">Greetings Cards</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Speciality Paper</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Large Format Paper</a></li>
+                  <li><a href="#">Price Tags &amp; Till Rolls</a></li>
+                  <li><a href="#">Copying Card</a></li>
+                  <li><a href="#">Photo Paper</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>          
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Ink &amp;<br/>Toner</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small">Toner Cartridges</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Brother Toner</a></li>
+                  <li><a href="#">Canon Toner</a></li>
+                  <li><a href="#">Dell Toner</a></li>
+                  <li><a href="#">Epson Toner</a></li>
+                  <li><a href="#">HP Toner</a></li>
+                  <li><a href="#">Konica Minolta Toner</a></li>
+                  <li><a href="#">Kyocera Toner</a></li>
+                  <li><a href="#">Lexmark Toner</a></li>
+                  <li><a href="#">NRG Toners</a></li>
+                  <li><a href="#">Office Depot Toner</a></li>
+                  <li><a href="#">OKI Toner</a></li>
+                  <li><a href="#">Ricoh Toner</a></li>
+                  <li><a href="#">Samsung Toner</a></li>
+                  <li><a href="#">Other Toner</a></li>
+                  <li><a href="#">Toshiba Tonerv</a></li>
+                  <li><a href="#">Remanufactured Toners</a></li>
+                  <li><a href="#">Xerox Toner</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>           
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small">Ink Cartridges</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Brother Ink Cartridges</a></li>
+                  <li><a href="#">Canon Ink Cartridges</a></li>
+                  <li><a href="#">Epson Ink Cartridges</a></li>
+                  <li><a href="#">HP Ink Cartridges</a></li>
+                  <li><a href="#">Lexmark Ink Cartridges</a></li>
+                  <li><a href="#">Other Ink Cartridges</a></li>
+                  <li><a href="#">Kyocera Toner</a></li>
+                  <li><a href="#">Refilled &amp; Compatible Ink Cartridges</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Printer Ribbons</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Compatible Printer Ribbons</a></li>
+                  <li><a href="#">Original Printer Ribbons</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Office<br/>Supplies</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Planners &amp;<br/>Calendars</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Diaries</a></li>
+                  <li><a href="#">Inserts &amp; Accessories</a></li>
+                  <li><a href="#">Calendars</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Sticky Notes, Pads &amp; Forms</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Account Books &amp; Forms</a></li>
+                  <li><a href="#">Self-Stick Notes &amp; Index Flags</a></li>
+                  <li><a href="#">Pads &amp; Notebooks</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Adhesive Tape &amp; Despensers</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Adhesive Films</a></li>
+                  <li><a href="#">Industrial Tape</a></li>
+                  <li><a href="#">Dispensers</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Laminating &amp; Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Laminating Machines</a></li>
+                  <li><a href="#">Laminating Accessories</a></li>
+                  <li><a href="#">Filing &amp; Archiving</a></li>
+                  <li><a href="#">Filing &amp; Storage Systems</a></li>
+                  <li><a href="#">Suspension Files &amp; Accessories</a></li>
+                  <li><a href="#">Folders &amp; Binders</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Presenting &amp; Presentation Equipment</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Laminating Machines &amp; Accessories</a></li>
+                  <li><a href="#">Room Dividers, Whiteboards &amp; Accessories</a></li>
+                  <li><a href="#">Brochure Holders &amp; Display Systems</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Pens, Pencils &amp; Writing Supplies</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Ballpoint &amp; Fountain Pens</a></li>
+                  <li><a href="#">Markers</a></li>
+                  <li><a href="#">Adhesive Tape &amp; Dispensers</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Desk Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Hole Punches &amp; Staplers</a></li>
+                  <li><a href="#">Desk Accessories</a></li>
+                  <li><a href="#">Desktop Filing</a></li>
+                  <li><a href="#">Stamps &amp; Pads</a></li>
+                  <li><a href="#">Personalised Stamps</a></li>
+                  <li><a href="#">Date Stamps</a></li>
+                  <li><a href="#">Stamp Pads &amp; Ink</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Office<br/>Technology</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Shredders</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Shredders</a></li>
+                  <li><a href="#">Shredder Oil</a></li>
+                  <li><a href="#">Shredder Bags</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Batteries</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Batteries</a></li>
+                  <li><a href="#">Rechargeable Batteries</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Labelling Machines</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Labelling Machines</a></li>
+                  <li><a href="#">Labels &amp; Labelling Tapes</a></li>
+                  <li><a href="#">Dispensers</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Office Machines &amp; Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Calculators &amp; Accessories</a></li>
+                  <li><a href="#">Fax Machines &amp; Accessories</a></li>
+                  <li><a href="#">Dictation Machines &amp; Accessories</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Pcs, Laptops &amp; Tablets PCs</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Tablets</a></li>
+                  <li><a href="#">Industry PCs</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Computer Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Keyboards &amp; Mice</a></li>
+                  <li><a href="#">Computer Accessories</a></li>
+                  <li><a href="#">Computer Cleaning Sprays &amp; Wipes</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Printers</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Inkjet Printers</a></li>
+                  <li><a href="#">Laser Printers</a></li>
+                  <li><a href="#">3D Printers</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Photography</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Digital Cameras &amp; Camcorders</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Hi-Fi &amp; Entertainment Technology</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Hi-Fi &amp; Entertainment Technology</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Desk Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Security Systems &amp; Technology</a></li>
+                  <li><a href="#">CCTV Cameras &amp; Accessories</a></li>
+                  <li><a href="#">CCTV Systems</a></li>
+                  <li><a href="#">CCTV Bundles</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Storage Media, SD Cards &amp; USB Sticks</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">USB Flash Drives</a></li>
+                  <li><a href="#">External Hard Drives</a></li>
+                  <li><a href="#">CDs</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Telecommunication &amp; Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Mobile Phones &amp; Accessories</a></li>
+                  <li><a href="#">Telephones &amp; Answering Machines</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Office Furniture &amp;<br/>Accessories</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Pictures, Frames &amp; Clocks</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Pictures &amp; Picture frames</a></li>
+                  <li><a href="#">Clocks &amp; Weather Stations</a></li>
+                  <li><a href="#">Decorations</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Reception Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Paper Basket &amp; Waste Bin</a></li>
+                  <li><a href="#">Wardrobes, Umbrella Stands &amp; Ashtrays</a></li>
+                  <li><a href="#">Lights &amp; Lamps</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Shelving &amp; Cupboards</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Steel Cabinets</a></li>
+                  <li><a href="#">Shelves</a></li>
+                  <li><a href="#">Cupboards</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Seating</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Office Chairs</a></li>
+                  <li><a href="#">Executive Chairs</a></li>
+                  <li><a href="#">Visitor's Chairs</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Seating Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Chair &amp; Floor Mats</a></li>
+                  <li><a href="#">Other Accessories</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Office Desks &amp; Pedastals</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Desks &amp; Tables</a></li>
+                  <li><a href="#">Pedastals</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Mailing, Storage &amp;<br />Housekeeping</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Workwear &amp; Safety</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Workwear</a></li>
+                  <li><a href="#">Safety Clothing</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Safety Equipment</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">First Aid Supplies</a></li>
+                  <li><a href="#">Fire Extinguisher</a></li>
+                  <li><a href="#">Health &amp; Safety Signs</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Catering</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Coffee</a></li>
+                  <li><a href="#">Sweets &amp; Snacks</a></li>
+                  <li><a href="#">Coffee &amp; Tea Accessories</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Envelopes &amp; Padded Envelopes</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Stamps</a></li>
+                  <li><a href="#">Mailers</a></li>
+                  <li><a href="#">Envelopes</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Fire Protection</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Fire Safes</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Strongboxes &amp; Key Management</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Cash Counters &amp; Management</a></li>
+                  <li><a href="#">Cash-Testing Equipment</a></li>
+                  <li><a href="#">Key Management Systems &amp; Accessories</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Appliances &amp; Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Vacuum Cleaners &amp; Accessories</a></li>
+                  <li><a href="#">Coffee Machines &amp; Drinks Dispensers</a></li>
+                  <li><a href="#">Kitchen Appliances</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Hygiene Products</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Folding Hand Towel</a></li>
+                  <li><a href="#">Toilet Paper</a></li>
+                  <li><a href="#">Soap</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Kitchen &amp; Housekeeping Supplies</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Crockery, Cutlery &amp; Kitchen Accessories</a></li>
+                  <li><a href="#">Kitchen Foil &amp; Film</a></li>
+                  <li><a href="#">Cleaning Cloths &amp; Sponges</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Ladders, Steps &amp; Trolleys</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Ladders</a></li>
+                  <li><a href="#">Office Trolleys</a></li>
+                  <li><a href="#">Stools</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small">Cleaning Products</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Refuse Bags &amp; Sacks</a></li>
+                  <li><a href="#">Mops &amp; Buckets</a></li>
+                  <li><a href="#">Detergents &amp; Detergent Tabs</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Bags &amp; Suitcases</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Desks &amp; Tables</a></li>
+                  <li><a href="#">Pedastals</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Packaging Supplies &amp; Accessories</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Packaging Tape</a></li>
+                  <li><a href="#">Stretch Film &amp; Dispenser</a></li>
+                  <li><a href="#">Shipping Cartons, Tubes &amp; Folding Boxes</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+                <h2 class="sub-menu-head small">Scales &amp; Folding Machines</h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Letter &amp; Parcel Scales</a></li>
+                  <li><a href="#">Folding Machines</a></li>
+                  <li><a href="#">Pricing Guns, Tools &amp; Tool Storage</a></li>
+                  <li><a href="#">Labelling Guns &amp; Scanners</a></li>
+                  <li><a href="#">Tool Sets &amp; Equipment</a></li>
+                  <li><a href="#" class="see-all">See All</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <a href="#"><img src="imgs/dropdown/paper_1.png" width="100%;"></a>
+                <a href="#"><img src="imgs/dropdown/paper_2.png" width="100%;"></a>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Brand<br />Shops</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/appleshop_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Apple</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/avery_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Avery</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/brother_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Brother</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/canon_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Canon</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/dymo_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Dymo</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/edding_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Edding</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/hp_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">HP</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/legamaster_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Legamaster</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/leitz_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Leitz</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-sm-3">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/post-it_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Post-It</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/samsung_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Samsung</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/brandshop/tchibo_logo_brandshop.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Tchibo</a></li>
+                </ul>
+              </div>
+            </div>                  
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu small"><span>Viking<br />Shops</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/brand-shops_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Apple</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/clearance_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Avery</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/ergonomics_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Brother</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/high_tech_shop_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Canon</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/hygiene_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Dymo</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/ink_toner_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Edding</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/newproducts_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">HP</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/security_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Legamaster</a></li>
+                </ul>
+                <h2 class="sub-menu-head small"><img src="imgs/dropdown/vikingshop/wintershop_vkshops.jpeg"></h2>
+                <ul class="sub-menu-lists">
+                  <li><a href="#">Leitz</a></li>
+                </ul>
+              </div>
+            </div>                  
+          </div>
+        </li>
+      </ul> 
+    </nav>
+  </header>
+  <main>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        <div class="card bg--purple"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider1-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card bg--lblue"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider2-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card bg--orange"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider3-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card card-inverse nobrdr">
+          <div class="card-block mini-banner bg--grey">
+          <p class="medium">99 Cent Shop › <span class="small">Grab a bargain for under 1€</span></p>
+            <img class="card-img-bottom pull-right" src="imgs/articles/columnad1-at-400.png" alt=""></a>
+          </div>
+          <div class="card-block mini-banner bg--grey">
+            <p class="medium">99 Cent Shop › <span class="small">Grab a bargain for under 1€</span></p>
+            <img class="card-img-bottom pull-right" src="imgs/articles/columnad2-at-400.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        <div class="card bg--dgreen"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider4-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card bg--lgreen"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider5-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card bg--dark"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-slider6-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card card-inverse nobrdr">
+          <div class="card-block bg--grey mini-banner">
+          <p class="medium">99 Cent Shop › <span class="small">Grab a bargain for under 1€</span></p>
+            <img class="card-img-bottom pull-right" src="imgs/articles/columnad3-at-400.png" alt=""></a>
+          </div>
+          <div class="card-block bg--grey mini-banner">
+            <p class="medium">99 Cent Shop › <span class="small">Grab a bargain for under 1€</span></p>
+            <img class="card-img-bottom pull-right" src="imgs/articles/columnad4-at-400.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        <div class="card outline_blue"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-static1-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card outline_pink"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-static2-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card outline_mint"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-static3-march-400.png" alt="Card image cap"></a>
+        </div>
+        <div class="card outline_sky"><a href="#">
+          <div class="card-block">
+            <h4 class="card-title xxlarge bold">Now from 2,59€</h4>
+            <p class="card-text xlarge bold">Save 55%</p>
+            <p class="card-text small">HP Office copypaper<br>Quality paper for everyday use ›</p>
+          </div>
+          <img class="card-img-bottom img-fluid" src="imgs/articles/homepagebanners-static4-march-400.png" alt="Card image cap"></a>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <section class="row">
+        <div class="col-md-12 col-xl-12">
+        <h4 class="rrcarousel-h"><span>Now Trending at Viking</span></h4>
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <article class="row">
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                </article>
+              </div>
+              <div class="carousel-item">
+                <article class="row">
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-md-3 col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                  <section class="col-xl-3">
+                    <img src="imgs/carousel/36797.jpeg" class="img-fluid" />
+                    <div class="details">
+                      <p class="small">HP Office Printing Paper A4<br/>80gsm White 500 Sheets</p>
+                      <p class="xsmall">As low as</p>
+                      <p class="large bold red">€2,59 <span class="xxsmall grey">ream<br/>per 10 reams</span></p>
+                      <p class="xsmall">€3,11 incl. VAT</p>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-md-4 col-xl-4">
+                            <input type="text" class="form-control" id="qty" placeholder="" data-default-value="1" value="1">
+                          </div>
+                          <div class="col-md-8 col-xl-8">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+                </article>
+              </div>
+            </div>
+            <a class="carousel-control left" href="#carousel" role="button" data-slide="prev">
+              <i class="fa fa-arrow-circle-o-left fa-2x"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control right" href="#carousel" role="button" data-slide="next">
+              <i class="fa fa-arrow-circle-o-right fa-2x"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <ul class="brand_shop">
+          <li class="col-md-1 col-xl-1"><a href="#"><img src="imgs/logos/OD_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-2 col-xl-2"><a href="#"><img src="imgs/logos/lexmark_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-1 col-xl-1"><a href="#"><img src="imgs/logos/hp_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-2 col-xl-2"><a href="#"><img src="imgs/logos/samsung_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-2 col-xl-2"><a href="#"><img src="imgs/logos/canon_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-2 col-xl-2"><a href="#"><img src="imgs/logos/brother_topbrands.png" class="img-fluid" /></a></li>
+          <li class="col-md-2 col-xl-2"><a href="#"><p class="medium">More in our<br/><span class="xlarge bold">Brand Shop</span></p></a></li>
+        </ul>
+      </section>
+      <section class="uspbar small">
+        <article class="row">
+          <div class="col-md-4 col-xl-4 text-xl-center">
+            <div class="icon"><i class="fa fa-truck"></i></div>
+            <p>Free Delivery on orders over €49</p>
+          </div>
+          <div class="col-md-4 col-xl-4 text-xl-center">
+            <div class="icon"><i class="fa fa-shield"></i></div>
+            <p>2 Year warranty on all Products</p>
+          </div>
+          <div class="col-md-4 col-xl-4 text-xl-center">
+            <div class="icon"><i class="fa fa-star"></i></div>
+            <p>Excellent customer service rating</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <section>
+      <div class="row">
+        <dl class="col-md-9 col-xl-9 small">
+          <dt>Online Support</dt>
+            <dd><a href="#">Customer Service</a></dd>
+            <dd><a href="#">Contact</a></dd>
+            <dd><a href="#">Ordering</a></dd>
+            <dd><a href="#">Billing and Invoicing</a></dd>
+            <dd><a href="#">Shipping and Delivery</a></dd>
+            <dd><a href="#">Returns and Warranty</a></dd>
+            <dd><a href="#">Order Tracking</a></dd>
+          <dt>Useful links</dt>
+            <dd><a href="#">Order History</a></dd>
+            <dd><a href="#">Quick order by article number</a></dd>
+            <dd><a href="#">E-billing</a></dd>
+            <dd><a href="#">Viking Rewards</a></dd>
+            <dd>&nbsp;</dd>
+            <dd>&nbsp;</dd>
+            <dd>&nbsp;</dd>
+          <dt>About Viking</dt>
+            <dd><a href="#">Company Details</a></dd>
+            <dd><a href="#">Why Viking?</a></dd>
+            <dd><a href="#">Trustpilot</a></dd>
+            <dd><a href="#">About Us</a></dd>
+            <dd>&nbsp;</dd>
+            <dd>&nbsp;</dd>
+            <dd>&nbsp;</dd>
+        </dl>
+        <p class="col-md-3 col-xl-3">4th Column</p>
+      </div>
+    </section>
+    <section>
+      <article class="row">
+        <ul class="social col-md-12 col-xl-12">
+          <li>Get social with us</li>
+          <li><button type="button" class="btn btn-primary"><i class="fa fa-facebook fa-lg"></i> </button></li>
+          <li><button type="button" class="btn btn-primary"><i class="fa fa-twitter fa-lg"></i></button></li>
+          <li><button type="button" class="btn btn-primary"><i class="fa fa-linkedin fa-lg"></i> </button></li>
+        </ul>
+      </article>
+    </section>
+  </footer>
+  <section>
+    <div class="row">
+      <ul class="legal col-md-12 col-xl-12 xsmall">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy &amp; Security</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li>&copy; 2000 - 2016 Viking. All rights reversed</li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-9 col-xl-9">
+        <ul class="payment-types">
+          <li class="verisign text-hide">Verisign</li>
+          <li class="visa text-hide">Visa</li>
+          <li class="mastercard text-hide">Mastercard</li>
+          <li class="amex text-hide">American Express</li>
+          <li class="paypal text-hide">PayPal</li>
+      </div>
+      <div class="col-md-3 col-xl-3">
+        <form class="pull-xs-right">
+          <div class="btn-group dropup">
+            <div id="options" data-input-name="country2"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer-text col-md-12 col-xl-12">
+        <p class=" text-xl-center xsmall">The business website only caters for companies, institutions and professionals who use products exclusively for professional purposes. All prices are VAT exclusive unless explicitly stated otherwise.</p>
+      </div>
+    </div>
+  </section>
+  <!-- DEV Breakpoints -->
+  <link rel="stylesheet" href="css/dev-breakpoints.css">
+  <div class="u-breakpoints">
+    <p class="panel">
+      <strong class="visible-xs-block">xSmall</strong>
+      <strong class="visible-is-block">Intermediate Small</strong>
+      <strong class="visible-sm-block">Small</strong>
+      <strong class="visible-md-block">Medium</strong>
+      <strong class="visible-lg-block">Large</strong>
+      <strong class="visible-xl-block">xLarge</strong>
+    </p>
+  </div>
+  <!-- DEV Breakpoints -->
+  <!-- jQuery first, then Bootstrap JS. -->
+  <script src="javascripts/lib/jquery-2.2.1.min.js"></script>
+  <script src="javascripts/thirdParty/tether.min.js"></script>
+  <script src="javascripts/lib/bootstrap.min.js"></script>
+  <script src="javascripts/lib/ie10-viewport-bug-workaround.js"></script>
+  <script src="javascripts/lib/can/can.jquery.min.js"></script>
+  <script src="javascripts/thirdParty/jquery.flagstrap.js"></script>
+  <script src="javascripts/OD_js.js"></script>
+</body>
+</html>

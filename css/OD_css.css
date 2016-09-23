@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: normal
+}
+html { font-size: 14px }
+body { font-size: 1rem }
+a, a:hover { text-decoration: none }
+
+.xxlarge { font-size: 30px; line-height: 34px }
+.xlarge { font-size: 26px; line-height: 30px }
+.large { font-size: 22px; line-height: 26px }
+.medium { font-size: 18px; line-height: 22px }
+.small { font-size: 14px; line-height: 18px }
+.xsmall { font-size: 12px; line-height: 16px }
+.xxsmall { font-size: 10px; line-height: 14px }
+.bold { font-weight: 700 }
+
+.red { color: #f00 }
+.grey { color: #999 }

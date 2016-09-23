@@ -1,0 +1,242 @@
+/* Utilities Bar */
+.utils { background-color: #7b7670; }
+.utils ul.utilities { margin: 4px auto; padding: 0 }
+.utils ul.utilities li { padding: 0 30px 3px 0; list-style: none; display: inline-block }
+.utils ul.utilities li:last-child { float: right; padding: 0 }
+.utils ul.utilities li p, .utils ul.utilities li a, .utils ul.utilities li a:visited {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #fff;
+  text-decoration: none
+}
+.utils .utilities__language a { text-transform: uppercase; color: #cac2b8 }
+.utils .utilities__language .selected { font-weight: bold; color: #fff }
+
+.user, a.user, a.user:hover, a.user:visited { color: #7b7670; text-decoration: none }
+.user .fa-sign-in, .user .fa-shopping-cart { margin: 20px 3px 0 0 }
+.user .fa-chevron-down { margin-left: 5px; color: #09F }
+
+
+ul.user-navlist {
+  list-style: none;
+  margin: 30px -15px -10px;
+  padding: 0
+}
+ul.user-navlist li {
+  border-top: solid 1px #cac2b8;
+}
+ul.user-navlist li a {
+  text-decoration: none;
+  color: #333 !important;
+  padding: 10px 15px;
+  display: block
+}
+ul.user-navlist li a:hover { color: #333 !important; background-color: #eee }
+
+.tools { margin: 20px auto !important }
+.tools div .input-group { margin-top: 8px }
+
+/* CSS3 Nav */
+/* Navigation Styles */
+nav { position: relative; border-top: 2px solid #dedbd7; background-color: rgba(234,231,227,1) }
+
+ul.main-nav { 
+  list-style-type: none; 
+  padding: 0px;
+  font-size: 0px;
+  max-width: 992px;
+  margin: 0 auto
+}
+
+ul.main-nav > li { 
+  display: inline-block;
+  padding: 0
+}
+
+ul.main-nav > li > a { 
+  display: block; 
+  padding: 8px 27px 10px; 
+  position: relative;
+  color: #333;
+  box-sizing: border-box
+}
+
+ul.main-nav > li:hover { background-color: #f9f9f9 }
+ul.main-nav > li:hover > a { color: #333; font-weight: 400 }
+ul.main-nav > li a.see-all { color: #09F }
+
+ul.main-nav > li ul.sub-menu-lists {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: block
+}
+
+ul.main-nav > li ul.sub-menu-lists > li {
+  padding: 2px 0;
+  line-height: 20px
+}
+
+ul.main-nav > li ul.sub-menu-lists > li > a { font-size: 14px }
+ul.main-nav > li ul.sub-menu-lists > li > a:hover { text-decoration: underline }
+ul.main-nav li a img { margin: 10px 0 20px }
+
+.ic {
+  position: fixed; 
+  cursor: pointer;
+  display: inline-block;
+  right: 25px;
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  top:0px;
+  outline: none
+}
+
+.ic.close { 
+  opacity: 0; 
+  font-size: 0px; 
+  font-weight: 300; 
+  color: #fff;
+  top: 8px;
+  height: 40px;
+  display: block;
+  outline: none
+}
+
+/* Menu Icons for Devices*/
+.ic.menu { top: 25px; z-index: 20 }
+
+.ic.menu .line { 
+  height: 4px; 
+  width: 100%; 
+  display: block; 
+  margin-bottom: 6px
+}
+.ic.menu .line-last-child { margin-bottom: 0px }
+
+.sub-menu-head { margin: 10px 0 }
+.banners-area { margin-top: 20px; padding-top: 15px }
+
+/* Popovers */
+.popover ul.cart-items-list {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%
+}
+.popover ul.cart-items-list li {
+  list-style: none;
+  margin: 0;
+  border-top: 1px solid #eae7e3;
+}
+.popover ul.cart-items-list li:last-child {
+  border-bottom: 1px solid #eae7e3;
+}
+.popover ul.cart-items-list li img,
+.popover ul.cart-items-list li p {
+  display: inline;
+}
+.popover ul.cart-items-list li p {
+  display: inline-block;
+  vertical-align: middle
+}
+.popover ul.cart-items-list li a, .popover ul.cart-items-list li a:hover { padding: 10px 0; display: inline-block; color: #333; text-decoration: none }
+.popover ul.cart-items-list li a img { max-width: 80px; margin: 0; padding: 0 }
+
+ul.buttons { margin: 20px 0 15px; display: block; float: right }
+ul.buttons li { display: inline; list-style: none }
+
+/* Footer */
+.uspbar { border-top: 2px dashed #eae7e3; border-bottom: 2px dashed #eae7e3; background-color: #FFF; margin-top: 30px !important; padding: 10px 0 }
+.uspbar .icon {
+  width: 30px;
+  height: 30px;
+  background: #3c9;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block
+}
+.uspbar .icon i { color: #fff; margin: 25% 0 }
+.uspbar p { color: #3c9; text-transform: uppercase; margin-top: 6px; display: inline }
+
+footer { background-color: rgba(234,231,227,1); padding: 20px 0 5px }
+footer dl {
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3
+}
+footer dt {
+  -moz-page-break-after: avoid;
+  -webkit-column-break-after: avoid;
+  break-after: avoid;
+  margin-bottom: 5px
+}
+footer dd {
+  -moz-page-break-before: avoid;
+  -webkit-column-break-before: avoid;
+  break-before: avoid
+}
+
+footer dd p, footer dd a, footer dd a:hover { color: #333; text-decoration: none }
+
+footer ul.social { display: inline-block }
+footer ul.social li {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  color: #fff
+}
+footer ul.social li:first-child {
+  float: none;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 700
+}
+
+ul.legal { margin-top: 10px; padding: 0 !important; display: inline-block }
+ul.legal li { display: block; float: left }
+ul.legal li a, ul.legal li a:hover { color: #333 }
+ul.legal li:before { content: "-"; margin: 0 5px }
+ul.legal li:first-child:before, ul.legal li:last-child:before { content: "" }
+ul.legal li:last-child { width: 100%; color: #ccc }
+
+ul.payment-types { margin: 0 0 0 -15px; padding: 0 }
+ul.payment-types li { margin: 0; padding: 0; list-style: none; display: inline-block; margin-right: 20px }
+li.verisign {
+  height: 32px;
+  width: 63px;
+  background: url('../imgs/logos/icons.png') 0 -314px no-repeat
+}
+li.visa {
+  height: 32px;
+  width: 49px;
+  background: url('../imgs/logos/icons.png') 0 -380px no-repeat
+}
+li.mastercard {
+  height: 32px;
+  width: 48px;
+  background: url('../imgs/logos/icons.png') 0 -215px no-repeat
+}
+li.amex {
+  height: 32px;
+  width: 38px;
+  background: url('../imgs/logos/icons.png') 0 0 no-repeat
+}
+li.paypal {
+  height: 32px;
+  width: 28px;
+  background: url('../imgs/logos/icons.png') 0 -282px no-repeat
+}
+
+ul[id*="flagstrap"].dropdown-menu { padding: 5px 0 5px 10px }
+
+.footer-text {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding: 15px 25px;
+  color: #bbb
+}

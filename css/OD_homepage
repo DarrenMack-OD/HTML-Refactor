@@ -1,0 +1,63 @@
+main { border-top: 2px dashed #eae7e3; clear: both; padding-top: 20px }
+
+.card { 
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px
+}
+.card-deck .bg--purple { background: #967adc }
+.card-deck .bg--lblue { background: #3bafda }
+.card-deck .bg--orange { background: #e9573f }
+.card-deck .bg--dgreen { background: #019875 }
+.card-deck .bg--lgreen { background: #8cc152 }
+.card-deck .bg--dark { background: #302c28 }
+.card-deck .bg--purple, .card-deck .bg--purple a, .card-deck .bg--purple a:hover,
+.card-deck .bg--lblue, .card-deck .bg--lblue a, .card-deck .bg--lblue a:hover,
+.card-deck .bg--orange, .card-deck .bg--orange a, .card-deck .bg--orange a:hover,
+.card-deck .bg--dgreen, .card-deck .bg--dgreen a, .card-deck .bg--dgreen a:hover,
+.card-deck .bg--lgreen, .card-deck .bg--lgreen a, .card-deck .bg--lgreen a:hover, 
+.card-deck .bg--dark, .card-deck .bg--dark a, .card-deck .bg--dark a:hover { color: #fff }
+.card-deck .outline_blue { border: 1px solid #0360a5 }
+.card-deck .outline_pink { border: 1px solid #ec88c2 }
+.card-deck .outline_mint { border: 1px solid #48cfae }
+.card-deck .outline_sky { border: 1px solid #2cc2eb }
+.card-deck .outline_blue, .card-deck .outline_blue a, .card-deck .outline_blue a:hover { color: #0360a5 }
+.card-deck .outline_pink, .card-deck .outline_pink a, .card-deck .outline_pink a:hover { color: #ec88c2 }
+.card-deck .outline_mint, .card-deck .outline_mint a, .card-deck .outline_mint a:hover { color: #48cfae }
+.card-deck .outline_sky, .card-deck .outline_sky a, .card-deck .outline_sky a:hover { color: #2cc2eb }
+.card-block { padding: 0.41rem }
+.card-title { margin-bottom: 0 }
+
+h4.rrcarousel-h { width: 100%; text-align: left; border-bottom: 1px solid #000; line-height: 0.1em; margin: 30px 0 } 
+h4.rrcarousel-h span { background:#fff; padding:0 10px }
+
+#carousel { width:90%; margin: 0 auto }
+.carousel-control { width: 35px }
+.carousel-control.left, .carousel-control.right { background: transparent !important }
+.carousel-control.left { left: -40px }
+.carousel-control.right { right: -40px }
+.carousel-control, .carousel-control:focus, .carousel-control:hover { color: #999 }
+.carousel-control i {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+  text-shadow: none
+}
+.carousel-control.left i { left: 0; color: #09F }
+.carousel-control.right i { right: 0; color: #09F }
+.details p:first-child { margin-bottom: 10px }
+.details p { margin-bottom: 0 }
+.details i { padding: 0 30px }
+.details span { vertical-align: top; display: inline-block }
+.details form { margin-top: 10px }
+.details input[type="text"] { text-align: center }
+.details button[type="submit"] { float: right }
+
+.brand_shop { list-style-type: none; margin: 30px 0 0; padding: 0 }
+.brand_shop li { display: inline; background-color: #ccc; height: 88px; padding: 28px 0 }
+.brand_shop li:first-child { padding: 28px 0 0 20px }
+.brand_shop li:last-child { padding: 18px 0 0 15px; background-color: #999 }
+.brand_shop li img { margin: 0 auto }
+.brand_shop li a { display: block; color: #333 }

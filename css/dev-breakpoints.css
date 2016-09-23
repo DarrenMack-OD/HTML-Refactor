@@ -1,0 +1,98 @@
+/* DEV */
+.visible-xs, .visible-sm, .visible-md, .visible-lg { display: none !important }
+.visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block,
+.visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline,
+.visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block {
+    display: none !important
+}
+@media (max-width: 544px) {
+    .visible-is-block { display: none !important }
+    .visible-xs { display: block !important }
+    table.visible-xs { display: table }
+    tr.visible-xs { display: table-row !important }
+    th.visible-xs, td.visible-xs { display: table-cell !important }
+    .visible-xs-block { display: block !important }
+    .visible-xs-inline { display: inline !important }
+    .visible-xs-inline-block { display: inline-block !important }
+    .hidden-xs { display: none !important }
+}
+@media (min-width: 545px) and (max-width: 991px) {
+    .hidden-is { display: none !important }
+    .visible-is-block { display: block !important }
+    table.visible-is-block { display: table }
+    tr.visible-is-block { display: table-row !important }
+    th.visible-is-block, td.visible-is-block { display: table-cell !important }
+}
+
+@media (min-width: 992px) {
+    .visible-is-block { display: none !important }
+}
+@media (min-width: 992px) and (max-width: 991px) {
+    .visible-sm { display: block !important }
+    table.visible-sm { display: table }
+    tr.visible-sm { display: table-row !important }
+    th.visible-sm, td.visible-sm { display: table-cell !important }
+    .visible-sm-block { display: block !important }
+    .visible-sm-inline { display: inline !important }
+    .visible-sm-inline-block { display: inline-block !important }
+    .hidden-sm { display: none !important }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md { display: none !important }
+    .visible-md { display: block !important }
+    table.visible-md { display: table }
+    tr.visible-md { display: table-row !important }
+    th.visible-md, td.visible-md { display: table-cell !important }
+    .visible-md-block { display: block !important }
+    .visible-md-inline { display: inline !important }
+    .visible-md-inline-block { display: inline-block !important }
+}
+
+@media (min-width: 1200px) {
+    .visible-lg { display: block !important }
+    table.visible-lg { display: table }
+    tr.visible-lg { display: table-row !important }
+    th.visible-lg, td.visible-lg { display: table-cell !important }
+    .visible-lg-block { display: block !important }
+    .visible-lg-inline { display: inline !important }
+    .visible-lg-inline-block { display: inline-block !important }
+    .hidden-lg { display: none !important }
+}
+@media (max-width: 1200px) {
+    .visible-xl-block { display: none !important }
+}
+
+.visible-xl-block, .visible-xl-inline, .visible-xl-inline-block { display: none }
+@media (min-width: 1200px) and (max-width: 1200px) {
+    .visible-lg-block { display: block !important }
+}
+
+@media (min-width: 1600px) {
+    .visible-xl-block { display: block !important }
+    table.visible-xl-block { display: table }
+    tr.visible-xl-block { display: table-row !important }
+    th.visible-xl-block, td.visible-xl-block { display: table-cell !important }
+    .hidden-xl-block { display: none !important }
+    .visible-lg-block { display: none !important }
+}
+@media (min-width: 1600px) {
+    .visible-xl-block { display: block !important }
+}
+
+.u-breakpoints { position: fixed; opacity: 0.8; z-index: 1; bottom: 0; right: 0 }
+.u-breakpoints p { font-size: rem-calc(11); padding: rem-calc(5); background-color: #09f }
+@media (min-width: 544px) {
+    .u-breakpoints p { background-color: #e31937
+    }
+}
+@media (min-width: 768px) {
+    .u-breakpoints p { background-color: #3c9 }
+}
+@media (min-width: 992px) {
+    .u-breakpoints p { background-color: #ccebff }
+}
+@media (min-width: 1200px) {
+    .u-breakpoints p { background-color: #fa0 }
+}
+@media (min-width: 1600px) {
+    .u-breakpoints p { background-color: #3c9 }
